@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorra+ Registro</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <!--Link favicon-->
+    <link rel="shortcut icon" href="/src/assets/img/logo/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <header class="topHeader">
+            <ul class="navSectionsList">
+                <li>Sobre Ahorra+</li>
+                <li>¿Cómo utilizarla?</li>
+                <li>Nuestra misión</li>
+                <li>Contacto</li>
+                <li>Ayuda</li>
+            </ul>
+        </header>
+        <header class="bottomHeader">
+            <img id="indexImage" src="/src/assets/img/logo/logoWithoutBackground.png" alt="Logo Ahorra+">
+        </header>
+    </nav>
+    <main>
+        <section class="contPrincipal">
+            <h1>¡Regístrate!</h1>
+            <p>Rellena el siguiente formulario para registrarte</p>
+            <form action="submit" id="formRegister" class="formRegister">
+                <input type="text" name="userName" id="userName" required placeholder="Nombre">
+                <input type="text" name="surname" id="surname" required placeholder="Apellido">
+                <input type="email" name="email" id="email" required placeholder="Correo electrónico">
+                <input type="password" name="password" id="password" required placeholder="Contraseña">
+                <input type="number" name="id" id="id" required placeholder="Número de cédula">
+                <input type="number" name="telephone" id="telephone" required placeholder="Número teléfono">
+                <button class="buttonRegister" id="buttonRegister" type="submit">Registrarme</button>
+            </form>
+            <p class="alreadyAccount">¿Ya tienes cuenta? <a href="/src/assets/pages/logIn.html">¡Ingresa!</a></p>
+        </section>
+    </main>
+    <footer>
+        <img src="/src/assets/img/logo/logoWithoutBackground.png" alt="Logo Ahorra+">
+        <article class="contFooterMembers">
+            <h2>Integrantes</h2>
+            <ul>
+                <li>Yeffer Taborda</li>
+                <li>Juan Carlos Caro</li>
+                <li>Michael Cardona</li>
+                <li>Jovani Posada</li>
+                <li>Cristian Vazques</li>
+                <li>Estanislao Salinas</li>
+            </ul>
+        </article>
+    </footer>
+    <!--Link JS-->
+    <script src="/src/js/main.js"></script>
+</body>
+</html>
